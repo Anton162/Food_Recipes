@@ -1,0 +1,8 @@
+/* Цвета стандартные */
+:root {
+    --hover-color: #FF7426;
+    --bgc-card-color: #E7FAFE;
+
+/* Время трансформации */
+    --transitoin: .2s;
+}
