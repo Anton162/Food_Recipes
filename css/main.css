@@ -169,4 +169,25 @@
 .hot-offer .hot-offer__inner .right-part img {
   height: 100%;
   border-radius: 0 30px 30px 0;
+}
+
+.category .all__category {
+  justify-content: space-between;
+  margin-top: 160px;
+}
+.category .all__category h2 {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: -1.92px;
+}
+.category .all__category button {
+  border: none;
+  border-radius: 16px;
+  background: var(--bgc-card-color);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.32px;
+  padding: 20px 27px;
 }/*# sourceMappingURL=main.css.map */

@@ -188,3 +188,26 @@
         }
     }
 }
+
+.category{
+    .all__category{
+        justify-content: space-between;
+        margin-top: 160px;
+        h2 {
+            font-family: Inter;
+            font-size: 48px;
+            font-weight: 600;
+            letter-spacing: -1.92px;
+        }
+        button {
+            border: none;
+            border-radius: 16px;
+            background: var(--bgc-card-color);
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: -0.32px;
+            padding: 20px 27px;
+        }
+    }
+}
