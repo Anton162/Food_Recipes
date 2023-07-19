@@ -195,37 +195,56 @@
   padding: 20px 27px;
 }
 .category .category__inner .cards-category {
+  overflow: hidden;
   gap: 40px;
 }
-.category .category__inner .cards-category .card {
+.category .category__inner .cards-category a {
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.category .category__inner .cards-category a .card {
   margin-top: 80px;
   width: 180px;
+  height: 202px;
   border-radius: 30px;
   position: relative;
   background: linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%);
 }
-.category .category__inner .cards-category .card a {
-  margin: 0 40px;
-  text-decoration: none;
-}
-.category .category__inner .cards-category .card a .food-bottom {
+.category .category__inner .cards-category a .card .food-bottom {
   position: absolute;
   width: 100px;
   height: 100px;
-  top: 20px;
+  top: 30px;
   right: 20px;
 }
-.category .category__inner .cards-category .card a .food-top {
+.category .category__inner .cards-category a .card .food-top {
+  margin: 0 40px;
   width: 100px;
   height: 100px;
   z-index: -1;
 }
-.category .category__inner .cards-category .card a p {
-  margin-top: 30px;
+.category .category__inner .cards-category a .card p {
+  margin-top: 50px;
   text-align: center;
   font-family: Inter;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: -0.36px;
   color: #000;
+}
+.category .category__inner .cards-category a .vegan {
+  background: linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.1) 100%);
+}
+.category .category__inner .cards-category a .meat {
+  background: linear-gradient(180deg, rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%);
+}
+.category .category__inner .cards-category a .dessert {
+  background: linear-gradient(180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%);
+}
+.category .category__inner .cards-category a .lunch {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
+}
+.category .category__inner .cards-category a .chocolate {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(241, 7, 7, 0.1) 100%);
 }/*# sourceMappingURL=main.css.map */
