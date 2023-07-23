@@ -190,7 +190,7 @@
 }
 
 .category {
-    margin-bottom: 200px;
+    margin-bottom: 183px;
     .category__inner {
         .category-title {
             justify-content: space-between;
@@ -265,6 +265,31 @@
                     .chocolate {
                             background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(241, 7, 7, 0.1) 100%);
                         }
+            }
+        }
+    }
+}
+
+.main {
+    margin-bottom: 200px;
+    .recipes_inner{
+        .recipes-title{
+            h2{
+                font-family: Inter;
+                font-size: 48px;
+                font-weight: 600;
+                letter-spacing: -1.92px;
+                text-align: center;
+            }
+            p {
+                color: rgba(0, 0, 0, 0.60);
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 28px;
+                margin-top: 24px;
+                text-align: center;
+                
             }
         }
     }
